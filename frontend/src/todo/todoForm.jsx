@@ -11,7 +11,9 @@ export default props => (
                 onChange={props.handleChange}></input>
         </Grid>
         <Grid cols='12 3 2'>
-            <IconButton  style='primary' icon='plus' onClick={props.handleAdd}> </IconButton>
+            <IconButton style='primary' icon='plus' onClick={props.handleAdd}> </IconButton>
+            <IconButton style='info' icon='search' onClick={props.handleSearch}> </IconButton>
+            <IconButton style='defaul' icon='close' onClick={props.handleClear}></IconButton>
         </Grid>
     </div>
 )
